@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
+//A class that will contain information about the item that is going to be shared
 @XmlRootElement
 @DatabaseTable(tableName = "shareables")
 public class Shareable {

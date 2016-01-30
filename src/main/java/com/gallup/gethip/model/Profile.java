@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
+//a class that represents a user profile
 @XmlRootElement
 @DatabaseTable(tableName = "profiles")
 public class Profile {
